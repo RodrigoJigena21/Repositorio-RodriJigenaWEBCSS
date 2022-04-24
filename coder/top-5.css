@@ -1,0 +1,183 @@
+body {
+    /* font-family: "Rowdies", cursive; */
+    background-image: url(../coder/Paginas/juegostop10/fondoweb.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    color:honeydew;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navegacion-padre{
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    background-color: rgb(79, 142, 236);
+    opacity: 0.5;       
+    border-style: solid;
+    border-color: whitesmoke;
+} 
+
+.navegacion-padre-ul{
+    display: flex;
+    background-color: rgb(3, 24, 66);
+    list-style:none;
+    border-style: groove;
+    margin: 20px;
+    border-color: black;
+    gap: 2.5rem;
+    height: 40px;
+    align-items: center;
+
+}
+
+li a { 
+    margin: 20px;
+    color: rgb(247, 242, 245);
+    border-color: rgb(187, 23, 146);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: darkgoldenrod;
+    transition: 0.5s;
+    border-style: solid;
+    border-color: orange;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 35px;
+    
+    
+
+}
+
+.pie-de-pagina {
+    background-color: darkblue;
+    opacity: 0.6;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.redes-A {
+    text-align: end;
+}
+
+.redes-B {
+    text-align: end;
+}
+
+.logo-face {
+    width: 50px;
+}
+
+.logo-ig {
+    width: 50px;
+}
+
+.pugb {
+    width: 600px;
+    height: 400px;
+    width: 100%;
+
+
+}
+
+.pugb-caja {
+    display: flex;
+    justify-content: center;
+}
+
+.wii-sports {
+    width: 400px;
+    height: 350px;
+}
+
+.wii-sports2 {
+    width: 600px;
+}
+
+
+.tetris {
+    width: 650px;
+    height: 400px;
+}
+
+
+.gtav {
+    width: 700px;
+    height: 380px;
+}
+
+.gtav-caja {
+    display: flex;
+    justify-content: center;
+}
+
+.minecraft  {
+    width: 700px;
+    height: 400px;
+}
+
+.minecraft-caja {
+    display: flex;
+    justify-content: center;
+}
+
+.titulos {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.grid-imagenes {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.grid-imagenes div {
+    width: 100%;
+}
+
+.titulos-principales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-imagenes-wii {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 100px;
+    column-gap: 250px;
+}
+
+.grid-imagenes-GTA {
+    display: flex;
+    padding: 20px;
+    column-gap: 50px;
+}
+
+.grid-imagenes-MINECRAFT {
+    display: flex;
+    padding: 20px;
+    column-gap: 50px;
+}
+
+.texto-info {
+    border-style: solid;
+    padding: 10px
+
+}
+

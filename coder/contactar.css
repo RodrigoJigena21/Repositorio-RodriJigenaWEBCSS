@@ -1,0 +1,124 @@
+body {
+    /* font-family: "Rowdies", cursive; */
+    background-image: url(../coder/Paginas/juegostop10/fondoweb.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    color:honeydew;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navegacion-padre{
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    background-color: rgb(79, 142, 236);
+    opacity: 0.5;       
+    border-style: solid;
+    border-color: whitesmoke;
+} 
+
+.navegacion-padre-ul{
+    display: flex;
+    background-color: rgb(3, 24, 66);
+    list-style:none;
+    border-style: groove;
+    margin: 20px;
+    border-color: black;
+    gap: 2.5rem;
+    height: 40px;
+    align-items: center;
+}
+
+li a { /*este es el codigo del nav*/
+    margin: 20px;
+    color: rgb(247, 242, 245);
+    border-color: rgb(187, 23, 146);
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: darkgoldenrod;
+    transition: 0.5s;
+    border-style: solid;
+    border-color: orange;
+}
+.pie-de-pagina {
+    background-color: darkblue;
+    opacity: 0.6;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.redes-A , .redes-B{
+    text-align: end;
+}
+
+
+.logo-redes {
+    width: 50px;
+}
+
+.borde-de-caja {
+    display: flex;
+    justify-content: center;
+    text-align: center
+    
+}
+
+.input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 4px;
+    border: solid;
+    border-color: yellow;
+}
+
+.formulario {
+    background-color: blueviolet;
+    border-radius: 4px  ;
+    padding: 40px;
+    margin: 15px;
+    width: 37%;
+    box-shadow: 5px 5px 30px blueviolet;
+}
+
+.boton {
+    margin: 15px;
+    border-style: solid;
+    border-color: green;
+    background: white;
+    width: 30%;
+    border: none;
+    padding: 12px;
+    font-size: 1rem; 
+}
+
+.boton:hover {
+    background-color: darkgoldenrod;
+    transition: 0.5s;
+    border-style: solid;
+    border-color: orange;
+}
+
+.titulo-principal {
+    text-align: center;
+    
+}
+
+.separacion {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.comentarioh3 {
+    font-family: Arial, Helvetica, sans-serif   ;
+}
+
+
+

@@ -1,0 +1,242 @@
+body {
+    /* font-family: "Rowdies", cursive; */
+    background-image: url(../coder/Paginas/juegostop10/fondoweb.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    color:honeydew;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navegacion-padre{
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    background-color: rgb(79, 142, 236);
+    opacity: 0.5;       
+    border-style: solid;
+    border-color: whitesmoke;
+} 
+
+.navegacion-padre-ul{
+    display: flex;
+    background-color: rgb(3, 24, 66);
+    list-style:none;
+    border-style: groove;
+    margin: 20px;
+    border-color: black;
+    gap: 2.5rem;
+    height: 40px;
+    align-items: center;
+}
+
+li a { /*este es el codigo del nav*/
+    margin: 20px;
+    color: rgb(247, 242, 245);
+    border-color: rgb(187, 23, 146);
+    text-decoration: none;
+    font-size: 20px;
+}
+li a:hover {
+    background-color: darkgoldenrod;
+    transition: 0.5s;
+    border-style: solid;
+    border-color: orange;
+}
+
+.titulo-principal {
+    text-align: center; 
+}
+
+.titulo-juego {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    border: solid;
+    padding: 2.5px;
+
+}
+
+.pie-de-pagina {
+    background-color: darkblue;
+    opacity: 0.6;
+    width: 100%;
+}
+
+.copyright {
+    text-align: center;
+}
+
+
+.redes-A {
+    text-align: end;
+}
+
+.logo-face {
+    width: 50px;
+}
+
+.logo-ig {
+    width: 50px;
+}
+
+.redes-B {
+    text-align: end;
+}
+
+
+/*posteriormente quiero agregar videos en vez de img*/
+
+.gow {
+    width: 600px;
+    height: 300px;
+    border-style: solid;
+    box-shadow: 0 0 50px red;
+    border-color: red;
+}
+
+.hpwl {
+    width: 500px;
+    height: 300px;
+    border-style: solid;
+    box-shadow: 0 0 50px blue;
+    border-color: blue;
+}
+
+.tokyo {
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 0 50px yellow;
+    border-color: yellow;
+}
+
+.contenedor {
+    display: grid;
+    width: 90%;
+    max-width: 1800px;
+    margin: 5em auto;
+    justify-content: center;
+    text-align: center;
+    border-style: double;
+    border-width: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.caja-tokyo {
+    margin: 2rem ;
+    padding: 3rem;
+    display: flex;
+    grid-template-columns: 50% 50%;
+    padding: 6rem; 
+    align-items: center;
+}
+
+.caja-gow {
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+    padding: 6rem;  
+    align-items: center;
+}
+
+.caja-hpwl {
+    display: flex;
+    grid-template-columns: 50% 50%;
+    padding: 6rem; 
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.parrafo {
+    margin: 2rem;
+    padding: 2rem;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rowdies', cursive;
+    background-color: whitesmoke;
+    border-style: solid;
+    color: black;
+}
+
+.color-god {
+    color:red;
+}
+.color-hp {
+    color: blue;
+}
+.color-tokyo {
+    color: yellow;
+}
+
+
+
+@media screen and (max-width: 400px) {
+    body {
+    background-image:url(../coder/Paginas/juegostop10/fondowebMOBILE.jpg);
+    display: grid;
+    background-size: auto;
+    }
+
+
+    .navegacion-padre .navegacion-padre-ul{
+        flex-direction: column; 
+        height: 30px; 
+        height: 300px;
+    } 
+    
+    
+    .navegacion-padre-ul {
+        justify-content: center ;
+    }
+
+    .contenedor {
+        border-style: none;
+    }
+
+
+
+    .caja-gow , .caja-hpwl, .caja-tokyo{
+        display: flex;
+        flex-direction: column  ;
+        flex-wrap: nowrap;
+        align-items: center;
+        
+    }
+
+
+    .contenedor-img {
+        width: 100px;
+        
+    }
+
+    .contenedor-img img {
+        width: 100%;
+    }
+
+
+    .color-god {
+        color:red;
+    }
+    
+    .color-hp {
+        color: blue;
+    }
+    
+    .color-tokyo {
+        color: yellow;
+    }
+
+    
+
+
+
+
+
+
+
+}
