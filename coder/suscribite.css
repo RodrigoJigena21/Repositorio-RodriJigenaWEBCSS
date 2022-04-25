@@ -17,6 +17,7 @@ body {
     opacity: 0.5;       
     border-style: solid;
     border-color: whitesmoke;
+    background-image: linear-gradient(180deg, #ff0cae, #6465ee);
 } 
 
 .navegacion-padre-ul{
