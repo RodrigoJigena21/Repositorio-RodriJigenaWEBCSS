@@ -55,7 +55,26 @@ body {
    font-family: 'Oswald', sans-serif;
    font-family: 'Press Start 2P', cursive;
    font-family: 'Rowdies', cursive;
+   animation-duration: 3s;
+   animation-name: aparecer;
+   animation-iteration-count: infinite;
+   box-shadow: whitesmoke;
  }
+
+
+    @keyframes aparecer {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+
+
+
+
  
  .titulo-secundario {
    text-align: center;
