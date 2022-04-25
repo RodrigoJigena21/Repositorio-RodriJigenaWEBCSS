@@ -1,229 +1,232 @@
 body {
- /* font-family: "Rowdies", cursive; */
-  background-image: url(../coder/Paginas/juegostop10/fondoweb.jpg);
-  background-position: center;
-  background-attachment: fixed;
-  background-size: contain;
-  color:honeydew;
-  margin: 0%;
-  padding: 0%;
-}
-
-.navegacion-padre { 
-  text-align: center; 
-  display: flex;
-  justify-content: center;
-  background-color: rgb(79, 142, 236);
-  opacity: 0.5;
-  border-style: solid;
-  border-color: whitesmoke;
-  
-}
-
-.navegacion-padre-ul {
-  display: flex;
-  background-color: rgb(3, 24, 66);
-  list-style:none;
-  border-style: groove;
-  margin: 20px;
-  border-color: black;
-  gap: 2.5rem;
-  height: 40px;
-  align-items: center;
-}
-
-
-.logo-pagina {
-  width: 7rem;
-  border-style: double; 
-  border-width: 0.5rem;
-  border-color: #f3f3f8;
-  border-radius: 5px;
-  box-shadow: 0 0 20px white;
-  
-}
-
-
-.titulo-principal {
-  text-align: center;
-  position: relative;
-  top: 100px;
-  color: aliceblue;
-  font-size: 20px;
-  font-family: 'DM Serif Display', serif;
-  font-family: 'Libre Baskerville', serif;
-  font-family: 'Oswald', sans-serif;
-  font-family: 'Press Start 2P', cursive;
-  font-family: 'Rowdies', cursive;
-}
-
-.titulo-secundario {
-  text-align: center;
-  font-size: 30px;
-  text-decoration: underline;
-  text-decoration: none;
-
-}
-
-
-li a {
-  margin: 20px;
-  color: rgb(247, 242, 245);
-  border-color: rgb(187, 23, 146);
-  text-decoration: none;
-  font-size: 20px;
-}  
-
-
-li a:hover {
-  background-color: darkgoldenrod;
-  transition: 0.5s;
-  border-style: solid;
-  border-color: orange;
-}
-
-
-.posicion-imagenes {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-
-
-.img-uno {
-  margin: 2%;
-  box-shadow: 0 0 20px rgb(233, 229, 4);
-  border-style: groove;
-  border-radius: 15px;
-
-}
-
-.img-dos {
-  margin: 2%;
-  box-shadow: 0 0 20px rgb(20, 20, 20);
-  border-style: groove;
-  border-radius: 15px;
-}
-
-.img-tres {
-  margin-bottom: 3px;
-  margin-left: 22px;
-  box-shadow: 0 0 25px rgb(6, 221, 16);
-  border-style: groove;
-  border-radius: 15px;
-}
-
-.redes {
-  text-align: end;
-}
-
-.logo-face {
-  width: 50px;
-}
-
-.logo-ig {
-  width: 50px;
-}
-
-.texto-redes{
-  text-align: end;
-  text-decoration: underline;
-}
-
-.copyright {
-  text-align: center;
-}
-
-.pie-de-pagina {
-  background-color:darkblue;
-  opacity: 0.6;
-}
-
-.gamer {
-  color: red;
-  border-style: solid;
-}
-.mundo  {  
-  color:aqua;
-  text-decoration: none;
-  border-style: solid;
-}
-
-/*boton hamburguesa none*/
-
-.boton-hambur {
-  display: none;
-}
-
-/* Voistas menores de 400px*/
-
-@media screen and (max-width: 400px) { /*la verdad el fondo me queda muy grande y trate de hacer lo mismo que en el otro responsive*/
-                                      /*logre con el tiempo que tuve lograr grid en dos pag y dos responsive*/ 
-  body {
-    background-image:url(../coder/Paginas/juegostop10/fondowebMOBILE.jpg);
-    display: grid;
-    background-size: auto;
-    }
-
-  .navegacion-padre .navegacion-padre-ul{
-    flex-direction: column; 
-    height: 30px; 
-    height: 300px;
-  } 
-
-
-  .navegacion-padre-ul {
-    justify-content: center ;
-  }
-
-
-
-  .titulo-principal {
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .caja-logo {
-    display: flex;
-    justify-content: center;
-    padding: 100px;
-  }
-  
-
-  .titulo-secundario , .posicion-imagenes {
-    flex-direction: column;
-    width: 100%;
-  }
-
-
-  .pie-de-pagina {
-    width: 100% ;
-  }
-
-  .texto-redes , .redes {
-    text-align: center;
-  }
-
-  .img-dos {
-    width: 340px;
-  }
-
-
-
-  /* boton hambuerguesa, que no lo voy a implementar aun por que no me sale xd y en este momento quiero matar a alguien jaja*/
-
-
-  /*#boton-hambur {
-    font-size: 30px;
-    color: black;
-    
-  } */
-
-
-  /*#barra-nav:target {
-    /*transform: translateX(0);*/
-  }
-
-
-
+  /* font-family: "Rowdies", cursive; */
+   background-image: url(../coder/Paginas/juegostop10/fondoweb.jpg);
+   background-position: center;
+   background-attachment: fixed;
+   background-size: contain;
+   color:honeydew;
+   margin: 0%;
+   padding: 0%;
+ }
+ 
+ .navegacion-padre { 
+   background-image: linear-gradient(180deg, #ff0cae, #6465ee);
+   text-align: center; 
+   display: flex;
+   justify-content: center;
+   background-color: rgb(79, 142, 236);
+   opacity: 0.5;
+   border-style: solid;
+   border-color: whitesmoke;
+   
+ }
+ 
+ .navegacion-padre-ul {
+   display: flex;
+   background-color: rgb(3, 24, 66);
+   list-style:none;
+   border-style: groove;
+   margin: 20px;
+   border-color: black;
+   gap: 2.5rem;
+   height: 40px;
+   align-items: center;
+ }
+ 
+ 
+ .logo-pagina {
+   width: 7rem;
+   border-style: double; 
+   border-width: 0.5rem;
+   border-color: #f3f3f8;
+   border-radius: 5px;
+   box-shadow: 0 0 20px white;
+   
+ }
+ 
+ 
+ .titulo-principal {
+   text-align: center;
+   position: relative;
+   top: 100px;
+   color: aliceblue;
+   font-size: 20px;
+   font-family: 'DM Serif Display', serif;
+   font-family: 'Libre Baskerville', serif;
+   font-family: 'Oswald', sans-serif;
+   font-family: 'Press Start 2P', cursive;
+   font-family: 'Rowdies', cursive;
+ }
+ 
+ .titulo-secundario {
+   text-align: center;
+   font-size: 30px;
+   text-decoration: underline;
+   text-decoration: none;
+ 
+ }
+ 
+ 
+ li a {
+   margin: 20px;
+   color: rgb(247, 242, 245);
+   border-color: rgb(187, 23, 146);
+   text-decoration: none;
+   font-size: 20px;
+ }  
+ 
+ 
+ li a:hover {
+   background-color: darkgoldenrod;
+   transition: 0.5s;
+   border-style: solid;
+   border-color: orange;
+ }
+ 
+ 
+ .posicion-imagenes {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ }
+ 
+ 
+ 
+ .img-uno {
+   margin: 2%;
+   box-shadow: 0 0 20px rgb(233, 229, 4);
+   border-style: groove;
+   border-radius: 15px;
+ 
+ }
+ 
+ .img-dos {
+   margin: 2%;
+   box-shadow: 0 0 20px rgb(20, 20, 20);
+   border-style: groove;
+   border-radius: 15px;
+ }
+ 
+ .img-tres {
+   margin-bottom: 3px;
+   margin-left: 22px;
+   box-shadow: 0 0 25px rgb(6, 221, 16);
+   border-style: groove;
+   border-radius: 15px;
+ }
+ 
+ .redes {
+   text-align: end;
+ }
+ 
+ .logo-face {
+   width: 50px;
+ }
+ 
+ .logo-ig {
+   width: 50px;
+ }
+ 
+ .texto-redes{
+   text-align: end;
+   text-decoration: underline;
+ }
+ 
+ .copyright {
+   text-align: center;
+ }
+ 
+ .pie-de-pagina {
+   background-color:darkblue;
+   opacity: 0.6;
+   background-image: linear-gradient(3deg, #ff0cae, #6465ee);
+ }
+ 
+ .gamer {
+   color: red;
+   border-style: solid;
+ }
+ .mundo  {  
+   color:aqua;
+   text-decoration: none;
+   border-style: solid;
+ }
+ 
+ /*boton hamburguesa none*/
+ 
+ .boton-hambur {
+   display: none;
+ }
+ 
+ /* Voistas menores de 400px*/
+ 
+ @media screen and (max-width: 400px) { /*la verdad el fondo me queda muy grande y trate de hacer lo mismo que en el otro responsive*/
+                                       /*logre con el tiempo que tuve lograr grid en dos pag y dos responsive*/ 
+   body {
+     background-image:url(../coder/Paginas/juegostop10/fondowebMOBILE.jpg);
+     display: grid;
+     background-size: auto;
+     }
+ 
+   .navegacion-padre .navegacion-padre-ul{
+     flex-direction: column; 
+     height: 30px; 
+     height: 300px;
+   } 
+ 
+ 
+   .navegacion-padre-ul {
+     justify-content: center ;
+   }
+ 
+ 
+ 
+   .titulo-principal {
+     justify-content: center;
+     width: 100%;
+   }
+   
+   .caja-logo {
+     display: flex;
+     justify-content: center;
+     padding: 100px;
+   }
+   
+ 
+   .titulo-secundario , .posicion-imagenes {
+     flex-direction: column;
+     width: 100%;
+   }
+ 
+ 
+   .pie-de-pagina {
+     width: 100% ;
+   }
+ 
+   .texto-redes , .redes {
+     text-align: center;
+   }
+ 
+   .img-dos {
+     width: 340px;
+   }
+ 
+ 
+ 
+   /* boton hambuerguesa, que no lo voy a implementar aun por que no me sale xd y en este momento quiero matar a alguien jaja*/
+ 
+ 
+   /*#boton-hambur {
+     font-size: 30px;
+     color: black;
+     
+   } */
+ 
+ 
+   /*#barra-nav:target {
+     /*transform: translateX(0);*/
+   }
+ 
+ 
+ 
+ 
