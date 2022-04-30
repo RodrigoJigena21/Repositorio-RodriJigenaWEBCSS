@@ -72,6 +72,8 @@ body {
    animation-duration: 0.6s;
    animation-name: aparecer;
    animation-iteration-count: infinite;
+   box-shadow: whitesmoke;
+   padding: 10px;
  }
 
   @keyframes aparecer {
