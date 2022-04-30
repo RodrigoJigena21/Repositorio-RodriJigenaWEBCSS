@@ -72,6 +72,7 @@ body {
    animation-name: aparecer;
    animation-iteration-count: infinite;
    box-shadow: whitesmoke;
+   padding: 10px;
  }
 
 
