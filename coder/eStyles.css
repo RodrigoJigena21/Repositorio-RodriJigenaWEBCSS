@@ -218,6 +218,7 @@ body {
    display: none;
  }
  
+ 
  /* Voistas menores de 400px*/
  
  @media screen and (max-width: 400px) { /*la verdad el fondo me queda muy grande y trate de hacer lo mismo que en el otro responsive*/
