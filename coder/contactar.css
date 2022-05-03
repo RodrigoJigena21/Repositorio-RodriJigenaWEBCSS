@@ -69,3 +69,45 @@ li a:hover {
 #separacion {
     padding: 2rem;
 }
+
+.pie-de-pagina {
+    background-color:darkblue;
+    opacity: 0.6;
+    background-image: linear-gradient(3deg, #ff0cae, #6465ee);
+  } 
+
+@media screen and (max-width: 400px) { 
+    body {
+    background-image:url(../coder/Paginas/juegostop10/fondowebMOBILE.jpg);
+    display: grid;
+    background-size: auto;
+    }
+    
+    .navegacion-padre .navegacion-padre-ul{
+    flex-direction: column; 
+    height: 30px; 
+    height: 300px;
+    } 
+    
+    
+    .navegacion-padre-ul {
+    justify-content: center ;
+    }
+    
+    
+    
+    .titulo-principal {
+    justify-content: center;
+    width: 100%;
+    }
+    
+    
+    .pie-de-pagina {
+    width: 100%;
+    }
+    
+    .texto-redes , .redes {
+    text-align: center;
+    }
+    
+    }

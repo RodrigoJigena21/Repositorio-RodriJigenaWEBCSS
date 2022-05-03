@@ -182,3 +182,54 @@ li a:hover {
 
 }
 
+@media screen and (max-width: 400px) {
+    body {
+    background-image:url(../coder/Paginas/juegostop10/fondowebMOBILE.jpg);
+    display: grid;
+    background-size: auto;
+    width: 100%;
+    }
+
+
+.navegacion-padre .navegacion-padre-ul{
+        flex-direction: column; 
+        height: 30px; 
+        height: 300px;
+    } 
+    
+    
+    .navegacion-padre-ul {
+        justify-content: center ;
+    }
+
+.contenedor{
+        display: flex;
+        flex-direction: column  ;
+        flex-wrap: nowrap;
+        align-items: center;
+        
+    }
+
+
+.titulos-principales{
+        width: 100%;
+    }
+
+.pie-de-pagina {
+        width: 100% ;
+        }
+
+.texto-info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}   
+
+
+
+
+
+
+
+}
+
