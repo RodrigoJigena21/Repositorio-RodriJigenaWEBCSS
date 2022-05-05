@@ -181,67 +181,52 @@ li a:hover {
     background-image:url(../coder/Paginas/juegostop10/fondowebMOBILE.jpg);
     display: grid;
     background-size: auto;
-    }
+}
 
-
-    .navegacion-padre .navegacion-padre-ul{
-        flex-direction: column; 
-        height: 30px; 
-        height: 300px;
-    } 
+.navegacion-padre .navegacion-padre-ul{
+    flex-direction: column; 
+    height: 30px; 
+    height: 300px;
+} 
     
-    
-    .navegacion-padre-ul {
-        justify-content: center ;
-    }
+.navegacion-padre-ul {
+    justify-content: center ;
+}
 
-    .contenedor {
-        border-style: none;
-    }
+.contenedor {
+    border-style: none;
+}
 
+.caja-gow , .caja-hpwl, .caja-tokyo{
+    display: flex;
+    flex-direction: column  ;
+    flex-wrap: nowrap;
+    align-items: center;      
+}
 
-
-    .caja-gow , .caja-hpwl, .caja-tokyo{
-        display: flex;
-        flex-direction: column  ;
-        flex-wrap: nowrap;
-        align-items: center;
+.contenedor-img {
+    width: 100px;
         
-    }
+}
 
+.contenedor-img img {
+    width: 100%;
+}
 
-    .contenedor-img {
-        width: 100px;
-        
-    }
-
-    .contenedor-img img {
-        width: 100%;
-    }
-
-
-    .color-god {
-        color:red;
-    }
+.color-god {
+    color:red;
+}
     
-    .color-hp {
-        color: blue;
-    }
+.color-hp {
+    color: blue;
+}
     
-    .color-tokyo {
-        color: yellow;
-    }
+.color-tokyo {
+    color: yellow;
+}
 
-    .pie-de-pagina {
-        width: 100% ;
-        }
-
-    
-
-
-
-
-
-
+.pie-de-pagina {
+    width: 100% ;
+}
 
 }
