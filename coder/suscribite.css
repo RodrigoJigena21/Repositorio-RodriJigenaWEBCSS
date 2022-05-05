@@ -144,36 +144,36 @@ li a:hover {
 
 @media screen and (max-width: 400px) { 
 body {
-background-image:url(../coder/Paginas/juegostop10/fondowebMOBILE.jpg);
-display: grid;
-background-size: auto;
+    background-image:url(../coder/Paginas/juegostop10/fondowebMOBILE.jpg);
+    display: grid;
+    background-size: auto;
 }
 
 .navegacion-padre .navegacion-padre-ul{
-flex-direction: column; 
-height: 30px; 
-height: 300px;
+    flex-direction: column; 
+    height: 30px; 
+    height: 300px;
 } 
 
 
 .navegacion-padre-ul {
-justify-content: center ;
+    justify-content: center ;
 }
 
 
 
 .titulo-principal {
-justify-content: center;
-width: 100%;
+    justify-content: center;
+    width: 100%;
 }
 
 
 .pie-de-pagina {
-width: 100% ;
+    width: 100% ;
 }
 
 .texto-redes , .redes {
-text-align: center;
+    text-align: center;
 }
 
 }
