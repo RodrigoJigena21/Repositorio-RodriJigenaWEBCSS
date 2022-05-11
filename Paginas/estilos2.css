@@ -1,0 +1,107 @@
+body {
+  /* font-family: "Rowdies", cursive; */
+  background-image: url(../coder/Paginas/juegostop10/fondoweb.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+  color: honeydew;
+  margin: 0%;
+  padding: 0%; }
+
+.titulo-secundario {
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration: none; }
+
+.navegacion-padre {
+  background-image: linear-gradient(180deg, #ff0cae, #6465ee);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #4f8eec;
+  opacity: 0.5;
+  border-style: solid;
+  border-color: whitesmoke; }
+  .navegacion-padre .navegacion-padre-ul {
+    display: flex;
+    background-color: #031842;
+    list-style: none;
+    border-style: groove;
+    margin: 20px;
+    border-color: black;
+    gap: 2.5rem;
+    height: 40px;
+    align-items: center; }
+    .navegacion-padre .navegacion-padre-ul li a {
+      margin: 20px;
+      color: #f7f2f5;
+      border-color: #bb1792;
+      text-decoration: none;
+      font-size: 20px; }
+    .navegacion-padre .navegacion-padre-ul li a:hover {
+      background-color: darkgoldenrod;
+      transition: 0.5s;
+      border-style: solid;
+      border-color: orange; }
+
+.logoytitulo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem; }
+  .logoytitulo .logo-pagina {
+    width: 7rem;
+    border-style: double;
+    border-width: 0.5rem;
+    border-color: #f3f3f8;
+    border-radius: 65px;
+    box-shadow: 0 0 20px white; }
+  .logoytitulo .titulo-principal {
+    text-align: center;
+    top: 100px;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Rowdies', cursive;
+    animation-duration: 0.6s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    box-shadow: whitesmoke;
+    padding: 10px; }
+    .logoytitulo .titulo-principal .mundo {
+      color: aqua;
+      text-decoration: none;
+      border-style: solid; }
+    .logoytitulo .titulo-principal .gamer {
+      color: red;
+      border-style: solid; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.pie-de-pagina {
+  width: 100%; }
+  .pie-de-pagina .redes {
+    text-align: end; }
+  .pie-de-pagina .logo-face {
+    width: 50px; }
+  .pie-de-pagina .logo-ig {
+    width: 50px; }
+  .pie-de-pagina .texto-redes {
+    text-align: end;
+    text-decoration: underline; }
+  .pie-de-pagina .copyright {
+    text-align: center; }
+
+.pie-de-pagina {
+  background-color: darkblue;
+  opacity: 0.6;
+  background-image: linear-gradient(3deg, #ff0cae, #6465ee); }
