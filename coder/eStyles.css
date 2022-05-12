@@ -173,6 +173,8 @@ body {
    border-radius: 15px;
  }
  
+  /*mis redes les voy a cambiar el estilo antes de la ultima entrega*/
+
  .redes {
    text-align: end;
  }
@@ -210,8 +212,7 @@ body {
    border-style: solid;
  }
  
- /*boton hamburguesa none*/
- 
+ /*boton hamburguesa pronto lo voy a implementar*/
  .boton-hambur {
    display: none;
  }
@@ -219,8 +220,7 @@ body {
  
  /* Voistas menores de 400px*/
  
- @media screen and (max-width: 400px) { /*la verdad el fondo me queda muy grande y trate de hacer lo mismo que en el otro responsive*/
-                                       /*logre con el tiempo que tuve lograr grid en dos pag y dos responsive*/ 
+ @media screen and (max-width: 400px) { /*puse 400 como para emparejar ni mucho  ni tanto*/
    body {
      background-image:url(../coder/Paginas/juegostop10/fondowebMOBILE.jpg);
      display: grid;

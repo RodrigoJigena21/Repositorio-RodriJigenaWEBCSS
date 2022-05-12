@@ -87,6 +87,45 @@
       }
   }
   }
+
+  @media screen and (max-width: 400px) { /*puse 400 como para emparejar ni mucho  ni tanto*/
+    body {
+      background-image:url(../coder/Paginas/juegostop10/fondowebMOBILE.jpg);
+      display: grid;
+      background-size: auto;
+      }
+  
+    .navegacion-padre .navegacion-padre-ul{
+      flex-direction: column; 
+      height: 30px; 
+      height: 300px;
+    } 
+  
+  
+    .navegacion-padre-ul {
+      justify-content: center ;
+    }
+  
+  
+  
+    .titulo-principal {
+      justify-content: center;
+      width: 100%;
+    }
+    
+    
+    /* boton hambuerguesa, que no lo voy a implementar aun por que no me sale xd y en este momento quiero matar a alguien jaja*/
+  
+    /*#boton-hambur {
+      font-size: 30px;
+      color: black;
+      
+    } */
+  
+
+    /*#barra-nav:target {
+      /*transform: translateX(0);*/
+    }
  
  
  

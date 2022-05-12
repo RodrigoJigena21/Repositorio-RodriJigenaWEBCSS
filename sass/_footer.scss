@@ -28,4 +28,23 @@
     opacity: 0.6;
     background-image: linear-gradient(3deg, #ff0cae, #6465ee);
   }
+  @media screen and (max-width: 400px) { /*puse 400 como para emparejar ni mucho  ni tanto*/
+    body {
+      background-image:url(../coder/Paginas/juegostop10/fondowebMOBILE.jpg);
+      display: grid;
+      background-size: auto;
+      }
+  
+    .pie-de-pagina {
+      width: 100% ;
+    }
+  
+    .texto-redes , .redes {
+      text-align: center;
+    }
+  
+    .img-dos {
+      width: 340px;
+    }
+    }
   
