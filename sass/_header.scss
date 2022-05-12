@@ -1,49 +1,49 @@
 .navegacion-padre { 
-    background-image: linear-gradient(180deg, #ff0cae, #6465ee);
-    text-align: center; 
-    display: flex;
-    justify-content: center;
-    background-color: rgb(79, 142, 236);
-    opacity: 0.5;
-    border-style: solid;
-    border-color: whitesmoke;
+  background-image: linear-gradient(180deg, #ff0cae, #6465ee);
+  text-align: center; 
+  display: flex;
+  justify-content: center;
+  background-color: rgb(79, 142, 236);
+  opacity: 0.5;
+  border-style: solid;
+  border-color: whitesmoke;
 
 .navegacion-padre-ul {
-    display: flex;
-    background-color: rgb(3, 24, 66);
-    list-style:none;
-    border-style: groove;
-    margin: 20px;
-    border-color: black;
-    gap: 2.5rem;
-    height: 40px;
-    align-items: center;
+  display: flex;
+  background-color: rgb(3, 24, 66);
+  list-style:none;
+  border-style: groove;
+  margin: 20px;
+  border-color: black;
+  gap: 2.5rem;
+  height: 40px;
+  align-items: center;
 
-    li a {
-        margin: 20px;
-        color: rgb(247, 242, 245);
-        border-color: rgb(187, 23, 146);
-        text-decoration: none;
-        font-size: 20px;
-      }  
+li a {
+  margin: 20px;
+  color: rgb(247, 242, 245);
+  border-color: rgb(187, 23, 146);
+  text-decoration: none;
+  font-size: 20px;
+}  
       
       
-      li a:hover {
-        background-color: darkgoldenrod;
-        transition: 0.5s;
-        border-style: solid;
-        border-color: orange;
-      }
-      }
+li a:hover {
+  background-color: darkgoldenrod;
+  transition: 0.5s;
+  border-style: solid;
+  border-color: orange;
+}
+}
 
   }
 
 .logoytitulo {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
     .logo-pagina {
         width: 7rem;
         border-style: double; 
@@ -53,21 +53,21 @@
         box-shadow: 0 0 20px white;
       }
 
- .titulo-principal {
-    text-align: center;
-    top: 100px;
-    color: aliceblue;
-    font-size: 20px;
-    font-family: 'DM Serif Display', serif;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Press Start 2P', cursive;
-    font-family: 'Rowdies', cursive;
-    animation-duration: 0.6s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite;
-    box-shadow: whitesmoke;
-    padding: 10px;
+.titulo-principal {
+  text-align: center;
+  top: 100px;
+  color: aliceblue;
+  font-size: 20px;
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Rowdies', cursive;
+  animation-duration: 0.6s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+  box-shadow: whitesmoke;
+  padding: 10px;
     .mundo  {  
         color:aqua;
         text-decoration: none;
@@ -88,44 +88,31 @@
   }
   }
 
-  @media screen and (max-width: 400px) { /*puse 400 como para emparejar ni mucho  ni tanto*/
-    body {
-      background-image:url(../coder/Paginas/juegostop10/fondowebMOBILE.jpg);
-      display: grid;
-      background-size: auto;
-      }
-  
-    .navegacion-padre .navegacion-padre-ul{
-      flex-direction: column; 
-      height: 30px; 
-      height: 300px;
-    } 
-  
-  
-    .navegacion-padre-ul {
-      justify-content: center ;
+@media screen and (max-width: 400px) { /*puse 400 como para emparejar ni mucho  ni tanto*/
+  body {
+    background-image:url(../coder/Paginas/juegostop10/fondowebMOBILE.jpg);
+    display: grid;
+    background-size: auto;
     }
   
+  .navegacion-padre .navegacion-padre-ul{
+    flex-direction: column; 
+    height: 30px; 
+    height: 300px;
+  } 
   
   
-    .titulo-principal {
-      justify-content: center;
-      width: 100%;
-    }
-    
-    
-    /* boton hambuerguesa, que no lo voy a implementar aun por que no me sale xd y en este momento quiero matar a alguien jaja*/
+  .navegacion-padre-ul {
+    justify-content: center ;
+  }
   
-    /*#boton-hambur {
-      font-size: 30px;
-      color: black;
-      
-    } */
   
-
-    /*#barra-nav:target {
-      /*transform: translateX(0);*/
-    }
+  
+  .titulo-principal {
+    justify-content: center;
+     width: 100%;
+  }
+}
  
  
  
