@@ -6,8 +6,7 @@ body {
     background-size: contain;
     color:honeydew;
     margin: 0%;
-    padding: 0%;
-}   
+    padding: 0%;}   
 
 
 .navegacion-padre{
@@ -83,31 +82,30 @@ li a:hover {
     background-size: auto;
     }
     
-    .navegacion-padre .navegacion-padre-ul{
+.navegacion-padre .navegacion-padre-ul{
     flex-direction: column; 
     height: 30px; 
     height: 300px;
-    } 
+} 
     
     
-    .navegacion-padre-ul {
+.navegacion-padre-ul {
     justify-content: center ;
-    }
+}
     
     
     
-    .titulo-principal {
+.titulo-principal {
     justify-content: center;
     width: 100%;
-    }
+}
     
     
-    .pie-de-pagina {
+.pie-de-pagina {
     width: 100%;
-    }
+}
     
-    .texto-redes , .redes {
+.texto-redes , .redes {
     text-align: center;
-    }
-    
-    }
+}
+}
