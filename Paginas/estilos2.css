@@ -151,15 +151,7 @@ li a:hover {
   .texto-redes, .redes {
     text-align: center; }
   .img-dos {
-    width: 340px; }
-  /* boton hambuerguesa, que no lo voy a implementar aun por que no me sale xd y en este momento quiero matar a alguien jaja*/
-  /*#boton-hambur {
-   font-size: 30px;
-   color: black;
-   
- } */
-  /*#barra-nav:target {
-   /*transform: translateX(0);*/ }
+    width: 340px; } }
 
 .navegacion-padre {
   background-image: linear-gradient(180deg, #ff0cae, #6465ee);
@@ -248,15 +240,7 @@ li a:hover {
     justify-content: center; }
   .titulo-principal {
     justify-content: center;
-    width: 100%; }
-  /* boton hambuerguesa, que no lo voy a implementar aun por que no me sale xd y en este momento quiero matar a alguien jaja*/
-  /*#boton-hambur {
-      font-size: 30px;
-      color: black;
-      
-    } */
-  /*#barra-nav:target {
-      /*transform: translateX(0);*/ }
+    width: 100%; } }
 
 .pie-de-pagina {
   width: 100%; }
@@ -268,7 +252,9 @@ li a:hover {
     width: 50px; }
   .pie-de-pagina .texto-redes {
     text-align: end;
-    text-decoration: underline; }
+    text-decoration: underline;
+    color: #ffff00;
+    text-decoration: none; }
   .pie-de-pagina .copyright {
     text-align: center; }
 
@@ -289,3 +275,16 @@ li a:hover {
     text-align: center; }
   .img-dos {
     width: 340px; } }
+
+.copyright, .texto-redes {
+  text-align: center;
+  color: #ffd700; }
+
+.texto-redes {
+  display: flex;
+  justify-content: center; }
+
+.redes {
+  display: flex;
+  justify-content: center;
+  padding: 5px; }

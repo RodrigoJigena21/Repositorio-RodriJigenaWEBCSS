@@ -1,0 +1,16 @@
+$colorTextoFooter: #ffd700;
+
+.copyright, .texto-redes {
+    text-align: center;
+    color: $colorTextoFooter;
+  }
+ .texto-redes {
+     display: flex;
+     justify-content: center;
+ }
+
+.redes {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
