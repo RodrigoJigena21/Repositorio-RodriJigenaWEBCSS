@@ -1,35 +1,52 @@
+/*mis redes les voy a cambiar el estilo antes de la ultima entrega*/
+
+@mixin redes {
+  text-align: end;
+}
+
+.redes {
+ @include redes;
+}
+
+@mixin logoface {
+  width: 50px;
+}
+
+.logo-face {
+ @include logoface;
+}
+
+@mixin logoig {
+  width: 50px;
+}
+.logo-ig {
+ @include logoig;
+}
+
+@mixin textoredes {
+  text-align: end;
+  text-decoration: underline;
+}
+.texto-redes{
+ @include textoredes;
+}
+
+@mixin copyright {
+  text-align: center;
+}
+.copyright {
+ @include copyright;
+}
+
+@mixin piepagina {
+  background-color:darkblue;
+ opacity: 0.6;
+ background-image: linear-gradient(3deg, #ff0cae, #6465ee);
+}
+
 .pie-de-pagina {
-  width: 100% ;
-
-    .redes {
-      text-align: end;
-    }
-      
-    .logo-face {
-      width: 50px;
-    }
-      
-    .logo-ig {
-      width: 50px;
-    }
-      
-    .texto-redes{
-      text-align: end;
-      text-decoration: underline;
-      color: #ffff00;
-      text-decoration: none;
-    }
-
-    .copyright {
-      text-align: center;
-    }
-      
-  }
-  .pie-de-pagina {
-    background-color:darkblue;
-    opacity: 0.6;
-    background-image: linear-gradient(3deg, #ff0cae, #6465ee);
-  }
+ @include piepagina;
+}
   
   @media screen and (max-width: 400px) { /*puse 400 como para emparejar ni mucho  ni tanto*/
     body {
