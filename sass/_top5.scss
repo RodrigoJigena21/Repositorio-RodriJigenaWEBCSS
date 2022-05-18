@@ -1,0 +1,85 @@
+.titulo-principal {
+    text-align: center;
+    font-size: 35px;
+    .titulos {
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Oswald', sans-serif;
+    }
+}
+.titulos-principales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-imagenes {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.grid-imagenes div {
+    width: 100%;
+}
+
+.texto-info {
+    border-style: solid;
+    padding: 10px
+}
+
+.pugb {
+    width: 600px;
+    height: 400px;
+    width: 100%;
+}
+
+.pugb-caja {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-imagenes-wii {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 100px;
+    column-gap: 250px;
+}
+
+.wii-sports {
+    width: 400px;
+    height: 350px;  
+}
+
+.wii-sports2 {
+    width: 600px;
+}   
+
+.tetris {
+    width: 650px;
+    height: 400px;
+}
+
+.gtav {
+    width: 700px;
+    height: 380px;
+}
+
+.gtav-caja {
+    display: flex;
+    justify-content: center;
+}
+
+.minecraft  {
+    width: 700px;
+    height: 400px;
+}
+
+.minecraft-caja {
+    display: flex;
+    justify-content: center;
+}

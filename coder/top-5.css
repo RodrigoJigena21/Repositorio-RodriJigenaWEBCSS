@@ -51,9 +51,6 @@ li a:hover {
 .titulo-principal {
     text-align: center;
     font-size: 35px;
-    
-    
-
 }
 
 .pie-de-pagina {
@@ -179,7 +176,6 @@ li a:hover {
 .texto-info {
     border-style: solid;
     padding: 10px
-
 }
 
 @media screen and (max-width: 400px) {

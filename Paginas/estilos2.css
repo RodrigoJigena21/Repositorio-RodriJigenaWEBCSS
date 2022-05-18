@@ -268,3 +268,305 @@ li a:hover {
   display: flex;
   justify-content: center;
   padding: 5px; }
+
+.contenedor-x {
+  display: grid;
+  width: 90%;
+  max-width: 1800px;
+  margin: 5em auto;
+  justify-content: center;
+  text-align: center;
+  border-style: double;
+  border-width: 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column; }
+
+.titulo-principal-l {
+  text-align: center; }
+
+.titulo-juego {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  border: solid;
+  padding: 2.5px; }
+
+.gow {
+  width: 600px;
+  height: 300px;
+  border-style: solid;
+  box-shadow: 0 0 50px red;
+  border-color: red; }
+
+.caja-gow {
+  display: flex;
+  justify-content: center;
+  grid-template-columns: 50% 50%;
+  padding: 6rem;
+  align-items: center; }
+
+.hpwl {
+  width: 500px;
+  height: 300px;
+  border-style: solid;
+  box-shadow: 0 0 50px blue;
+  border-color: blue; }
+
+.caja-hpwl {
+  display: flex;
+  grid-template-columns: 50% 50%;
+  padding: 6rem;
+  flex-direction: row-reverse;
+  align-items: center; }
+
+.tokyo {
+  width: 500px;
+  height: 300px;
+  box-shadow: 0 0 50px yellow;
+  border-color: yellow; }
+
+.caja-tokyo {
+  margin: 2rem;
+  padding: 3rem;
+  display: flex;
+  grid-template-columns: 50% 50%;
+  padding: 6rem;
+  align-items: center; }
+
+.parrafo {
+  margin: 2rem;
+  padding: 2rem;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Rowdies', cursive;
+  background-color: whitesmoke;
+  border-style: solid;
+  color: black; }
+  .parrafo .color-god {
+    color: red; }
+  .parrafo .color-hp {
+    color: blue; }
+  .parrafo .color-tokyo {
+    color: yellow; }
+
+@media screen and (max-width: 400px) {
+  body {
+    background-image: url(../coder/Paginas/juegostop10/fondowebMOBILE.jpg);
+    display: grid;
+    background-size: auto; }
+  .navegacion-padre .navegacion-padre-ul {
+    flex-direction: column;
+    height: 30px;
+    height: 300px; }
+  .navegacion-padre-ul {
+    justify-content: center; }
+  .contenedor {
+    border-style: none; }
+  .caja-gow, .caja-hpwl, .caja-tokyo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center; }
+  .contenedor-img {
+    width: 100px; }
+  .contenedor-img img {
+    width: 100%; }
+  .color-god {
+    color: red; }
+  .color-hp {
+    color: blue; }
+  .color-tokyo {
+    color: yellow; }
+  .pie-de-pagina {
+    width: 100%; } }
+
+.titulo-principal {
+  text-align: center;
+  font-size: 35px; }
+  .titulo-principal .titulos {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif; }
+
+.titulos-principales {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.grid-imagenes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  justify-content: center;
+  column-gap: 20px; }
+
+.grid-imagenes div {
+  width: 100%; }
+
+.texto-info {
+  border-style: solid;
+  padding: 10px; }
+
+.pugb {
+  width: 600px;
+  height: 400px;
+  width: 100%; }
+
+.pugb-caja {
+  display: flex;
+  justify-content: center; }
+
+.grid-imagenes-wii {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 100px;
+  column-gap: 250px; }
+
+.wii-sports {
+  width: 400px;
+  height: 350px; }
+
+.wii-sports2 {
+  width: 600px; }
+
+.tetris {
+  width: 650px;
+  height: 400px; }
+
+.gtav {
+  width: 700px;
+  height: 380px; }
+
+.gtav-caja {
+  display: flex;
+  justify-content: center; }
+
+.minecraft {
+  width: 700px;
+  height: 400px; }
+
+.minecraft-caja {
+  display: flex;
+  justify-content: center; }
+
+.titulo-principal-s {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.borde-de-caja {
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+
+.formulario {
+  background-color: #6612cd;
+  border-radius: 4px;
+  padding: 50px;
+  margin: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-shadow: 9px 15px 40px black; }
+  .formulario .input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: solid;
+    border-color: yellow; }
+
+.separacion {
+  margin: 20px;
+  display: flex; }
+
+.boton {
+  margin: 15px;
+  border-style: solid;
+  border-color: green;
+  background: white;
+  width: 100%;
+  border: none;
+  padding: 12px;
+  font-size: 1rem; }
+
+.boton:hover {
+  background-color: darkgoldenrod;
+  transition: 0.5s;
+  border-style: solid;
+  border-color: orange; }
+
+.titulo-tres {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; }
+
+@media screen and (max-width: 400px) {
+  body {
+    background-image: url(../coder/Paginas/juegostop10/fondowebMOBILE.jpg);
+    display: grid;
+    background-size: auto; }
+  .navegacion-padre .navegacion-padre-ul {
+    flex-direction: column;
+    height: 30px;
+    height: 300px; }
+  .navegacion-padre-ul {
+    justify-content: center; }
+  .titulo-principal {
+    justify-content: center;
+    width: 100%; }
+  .pie-de-pagina {
+    width: 100%; }
+  .texto-redes, .redes {
+    text-align: center; } }
+
+.h1-ti {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  color: white;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif; }
+
+#separacion-id {
+  padding: 2rem; }
+
+.redes {
+  text-align: end; }
+
+.logo-face {
+  width: 50px; }
+
+.logo-ig {
+  width: 50px; }
+
+.texto-redes {
+  text-align: end;
+  text-decoration: underline; }
+
+.copyright {
+  text-align: center; }
+
+.pie-de-pagina {
+  background-color: darkblue;
+  opacity: 0.6;
+  background-image: linear-gradient(3deg, #ff0cae, #6465ee); }
+
+@media screen and (max-width: 400px) {
+  body {
+    background-image: url(../coder/Paginas/juegostop10/fondowebMOBILE.jpg);
+    display: grid;
+    background-size: auto; }
+  .navegacion-padre .navegacion-padre-ul {
+    flex-direction: column;
+    height: 30px;
+    height: 300px; }
+  .navegacion-padre-ul {
+    justify-content: center; }
+  .titulo-principal {
+    justify-content: center;
+    width: 100%; }
+  .pie-de-pagina {
+    width: 100%; }
+  .texto-redes, .redes {
+    text-align: center; } }

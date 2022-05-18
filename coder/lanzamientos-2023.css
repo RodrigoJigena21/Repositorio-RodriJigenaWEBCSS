@@ -61,32 +61,27 @@ li a:hover {
 
 }
 
-.pie-de-pagina {
-    background-color:darkblue;
+.redes {
+    text-align: end; }
+  
+  .logo-face {
+    width: 50px; }
+  
+  .logo-ig {
+    width: 50px; }
+  
+  .texto-redes {
+    text-align: end;
+    text-decoration: underline; }
+  
+  .copyright {
+    text-align: center; }
+  
+  .pie-de-pagina {
+    background-color: darkblue;
     opacity: 0.6;
-    background-image: linear-gradient(3deg, #ff0cae, #6465ee);
-  }
-
-.copyright {
-    text-align: center;
-}
-
-
-.redes-A {
-    text-align: end;
-}
-
-.logo-face {
-    width: 50px;
-}
-
-.logo-ig {
-    width: 50px;
-}
-
-.redes-B {
-    text-align: end;
-}
+    background-image: linear-gradient(3deg, #ff0cae, #6465ee); }
+  
 
 
 /*posteriormente quiero agregar videos en vez de img*/
