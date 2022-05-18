@@ -336,7 +336,7 @@ li a:hover {
   padding: 6rem;
   align-items: center; }
 
-.parrafo {
+.parrafo, .parrafo-extend {
   margin: 2rem;
   padding: 2rem;
   font-family: 'Libre Baskerville', serif;
@@ -345,11 +345,11 @@ li a:hover {
   background-color: whitesmoke;
   border-style: solid;
   color: black; }
-  .parrafo .color-god {
+  .parrafo .color-god, .parrafo-extend .color-god {
     color: #ff0000; }
-  .parrafo .color-hp {
+  .parrafo .color-hp, .parrafo-extend .color-hp {
     color: #0000ff; }
-  .parrafo .color-tokyo {
+  .parrafo .color-tokyo, .parrafo-extend .color-tokyo {
     color: #ffff00; }
 
 @media screen and (max-width: 400px) {
