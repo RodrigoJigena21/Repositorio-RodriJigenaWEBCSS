@@ -83,15 +83,16 @@
     color: black;
     
     .color-god {
-        color:red;
+        color:map-get($map: $coloresjuegos, $key:"rojo-god" );
     }
     .color-hp {
-        color: blue;
+        color: map-get($map: $coloresjuegos, $key:"azul-hpwl" );
     }
     .color-tokyo {
-        color: yellow;
+        color: map-get($map: $coloresjuegos, $key:"amarillo-tokyo");
     }
 }
+
 
 
 

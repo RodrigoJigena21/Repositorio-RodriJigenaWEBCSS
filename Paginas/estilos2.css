@@ -346,11 +346,11 @@ li a:hover {
   border-style: solid;
   color: black; }
   .parrafo .color-god {
-    color: red; }
+    color: #ff0000; }
   .parrafo .color-hp {
-    color: blue; }
+    color: #0000ff; }
   .parrafo .color-tokyo {
-    color: yellow; }
+    color: #ffff00; }
 
 @media screen and (max-width: 400px) {
   body {

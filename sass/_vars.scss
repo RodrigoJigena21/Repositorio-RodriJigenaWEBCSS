@@ -1,3 +1,5 @@
+// Aplicando variable
+
 $colorTextoFooter: #000000;
 
 .copyright, .texto-redes {
@@ -15,3 +17,14 @@ $colorTextoFooter: #000000;
     justify-content: center;
     padding: 5px;
 }
+
+// Aplicando maps
+
+$coloresjuegos: (
+    "rojo-god": #ff0000, 
+    "azul-hpwl":#0000ff,
+    "amarillo-tokyo": #ffff00,
+)
+
+// Aplicando extend
+
