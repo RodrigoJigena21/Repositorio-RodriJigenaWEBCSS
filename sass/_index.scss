@@ -16,7 +16,7 @@ body {
   text-decoration: none;
 }
 
-  /*a index me refiero con el body jaja*/ 
+  /*a index me refiero con el body jaja , keyframes de titulo*/ 
 @keyframes aparecer {
   0% {
     opacity: 0;
@@ -61,6 +61,7 @@ li a:hover {
  border-radius: 15px;
 }
 
+/* esto era de las imagenes con animaciones que tenia mi pagina y cambie por el carousel. 
 .img-uno, .img-tres {
 -webkit-animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
@@ -90,7 +91,7 @@ animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) bot
           transform: rotateY(180deg);
 }
 }
-
+*/
 .img-dos {
  margin: 2%;
  box-shadow: 0 0 20px rgb(20, 20, 20);

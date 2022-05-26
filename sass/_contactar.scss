@@ -58,6 +58,8 @@
   .pie-de-pagina {
    @include piepagina;
   }
+  
+
 @media screen and (max-width: 400px) { 
     body {
     background-image:url(../coder/Paginas/juegostop10/fondowebMOBILE.jpg);

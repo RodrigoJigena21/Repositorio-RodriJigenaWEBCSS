@@ -1,4 +1,4 @@
-/*mis redes les voy a cambiar el estilo antes de la ultima entrega*/
+/*este es mi footer*/
 
 @mixin redes {
   text-align: end;
@@ -47,6 +47,7 @@
 .pie-de-pagina {
  @include piepagina;
 }
+
   
   @media screen and (max-width: 400px) { /*puse 400 como para emparejar ni mucho  ni tanto*/
     body {

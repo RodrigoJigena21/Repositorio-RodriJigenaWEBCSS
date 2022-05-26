@@ -1,3 +1,4 @@
+/*contenido de pag lanzamientos*/ 
 .contenedor-x {
     display: grid;
     width: 90%;
@@ -96,9 +97,6 @@
 .parrafo-extend{
     @extend .parrafo
 }
-
-
-
 
 @media screen and (max-width: 400px) {
     body {
